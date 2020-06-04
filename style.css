@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #666;
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+}
+
+#gamearea {
+    position: relative;
+    top: 150px;
+	left: 200px;
+    width: 500px;
+    height: 500px;
+}
+
+.water {
+	position: absolute;
+    z-index: 0;
+}
+.tube1{
+	background-image: url(tube1.png);
+}
+.tube2{
+	background-image: url(tube2.png);
+}
+.tube3{
+	background-image: url(tube3.png);
+}
+.tube4{
+	background-image: url(tube4.png);
+}
+#counter{
+	font-size: 30px;
+	width: 400px;
+}
+.audio{
+	position: relative;
+	top: 900px;
+}
+#scoreboard{
+	height: 200px;
+	width: 200px;
+	position: relative;
+	left: 855px;
+	top: 170px;
+	float: left;
+	text-align: center;
+}
+.main{
+	background-position: center;
+	background-image: url('water.gif');
+}
+#sound{
+	float: left;
+	position: relative;
+	left: 1130px;
+	top: -30px;	
+}
+#lefolyo{
+	float: left;
+	position: relative;
+	width: 25px;
+	height: 0px;
+	left: 680px;
+	top: 451px;
+	background: blue;
+}

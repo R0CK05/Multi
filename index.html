@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Plámbör pázül</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+	<audio id="music" loop>
+		<source src="dududu.ogg" type="audio/ogg">
+	</audio>
+	<audio id="sound">
+		<source src="metal.ogg" type="audio/ogg">
+	</audio>
+</head>
+<body>
+	<div class="main">
+		<div id="counter"></div>
+		<div id="sound">
+			<img id="musicbutton" src="nomusic.png" alt="music" onclick="musicplay()">
+			<img id="soundbutton" src="nosound.png" alt="music" onclick="soundplay()">
+		</div>
+	</div>
+	<div id="scoreboard">Toplista:
+		<div id="scores"></div>
+	</div>
+	<div id="lefolyo"></div>
+</body>
+</html>
